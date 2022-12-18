@@ -1,3 +1,11 @@
+---
+title: "SSH认识和配置"
+date: 2022-12-18T17:35:33+08:00
+tags: ["SSH"]
+draft: false
+featured_image: "/images/Landscape with rainbow.jpg"
+---
+
 # 导读
 
 最初接触ssh是在登录github远程仓库时，知道除了https还有ssh方法（ssh的建立安全隧道的作用）；然后再次接触到ssh是因为在看见switchomega插件的时候想去了解代理和翻墙的原理，知道了也可以用ssh进行（ssh的绕过防火墙的作用）。

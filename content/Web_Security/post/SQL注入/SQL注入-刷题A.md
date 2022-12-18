@@ -1,4 +1,10 @@
-整篇文章题目来源：[什么是SQL注入？教程和示例 |网络安全学院 (portswigger.net)？](https://portswigger.net/web-security/sql-injection)
+---
+title: "SQL注入-刷题A"
+date: 2022-12-18T17:35:33+08:00
+tags: ["SQL注入"]
+draft: false
+featured_image: "/images/laeeb.jpg"
+---
 
 针对不同数据库的备忘录可在链接中找。
 

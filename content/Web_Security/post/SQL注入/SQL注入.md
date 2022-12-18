@@ -1,3 +1,11 @@
+---
+title: "SQL注入"
+date: 2022-12-18T17:35:33+08:00
+tags: ["SQL注入"]
+draft: false
+featured_image: "/images/laeeb.jpg"
+---
+
 # 前言
 
 第二遍学SQL注入了，第一遍学的云里雾里，不知道很多做法的根本原理，所以写下这一篇，弥补之前学的不足，并且回顾之前学的知识。
@@ -226,13 +234,13 @@
 >   > /?id=1' and 1=2 union select 1,group_concat(table_name),3 from information_schema.tables where table_schema=要查的具体的库 and '1'='1
 >   > #这里 “要查的库名”，可以用database()函数查询当前库名
 >   > ```
->   
+> 
 >   > `SCHEMATA`表格
 >   >
 >   > 当前mysql实例中所有数据库的信息，和`SHOW DATABASE`命令的结果一致
 >   >
 >   > > `schema_name`库名
->   
+> 
 >   > `COLUMNS`表格
 >   >
 >   > 所有列，与`show columns from schemaname.tablename`的结果一致
@@ -242,7 +250,7 @@
 >   > > `table_name`
 >   >
 >   > > `column_name`
->   
+> 
 >   > `STATISTICS`表格
 >   >
 >   > 所有索引信息，与`show index from schemaname.tablename`的结果一致
